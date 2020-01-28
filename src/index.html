@@ -11,10 +11,63 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Travel Diary</title>
   </head>
 
   <body>
-    <article id="container"></article>
+    <!-- Start of parallax-wrapper div on line 24 -->
+    <div class="parallax-wrapper">
+      <!-- Start of parrallax content div on line 26 -->
+      <div class="content-1">
+        <div class="" id="main-container">
+          <header>
+            <div>
+              <h2 class="display-4 text-center ">Travel Diary</h2>
+            </div>
+          </header>
+          <div id="card-container" class="container"></div>
+        </div>
+        <!-- End of parallax content div on line 36 -->
+      </div>
+      <!-- End of parallax-wrapper on line 38 -->
+    </div>
+
+    <!-- Start of regular-wrapper on line 41 -->
+    <div class="regular-wrapper">
+      <!-- Start of the second content div on line 43 -->
+      <div class="content-2">
+        <div class="mt-5">
+          <h2 class="display-4 text-center mt-0 ">Diary Entries</h2>
+        </div>
+        <!-- Container that holds all submitted entries is on line 48 -->
+        <div id="entry-container" class="mt-1 "></div>
+        <!-- Content div is below on line 50 -->
+      </div>
+      <!-- End of the regular-wrapper is below on line 52 -->
+    </div>
+
+    <!-- start of bootstrap links -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end of bootstrap links -->
+    <footer></footer>
   </body>
 </html>

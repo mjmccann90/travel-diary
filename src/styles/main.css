@@ -1,0 +1,100 @@
+.picture {
+  width: 50%;
+  height: 40%;
+  margin: auto;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.locationCard {
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+  width: 21%;
+  height: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  background-color: #cdba92;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.locationCard img,
+.locationCard textarea,
+.submit-button {
+  margin: 0.01px auto;
+  padding-top: 5px;
+  display: block;
+}
+
+.locationCard img {
+  width: 190px;
+  height: 180px;
+  display: block;
+}
+
+/* parrallax effect CSS */
+
+html {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 5vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url("../../images/old-world-map.jpg");
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+  /* opacity: 0.7; */
+}
+.regular-wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+  background-image: url("../../images/old-world-map.jpg");
+  z-index: 2;
+  position: relative;
+  /* opacity: 0.7; */
+}
+.content-1 {
+  margin: 0 auto;
+  padding: 0px;
+  width: 76.5%;
+  height: 100%;
+  background: #ccc7b2;
+  opacity: 0.88;
+}
+.content-2 {
+  margin: 0 auto;
+  padding: 40px;
+  width: 75.5%;
+  height: 100%;
+  background: #ccc7b2;
+  opacity: 0.88;
+}
+
+/* Parrallax Effect code was taken from https://redstapler.co/css-parallax-scrolling-effect/ */
