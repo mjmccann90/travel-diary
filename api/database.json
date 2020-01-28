@@ -3,32 +3,50 @@
     {
       "id": 1,
       "title": "Dry Tortugas",
-      "img": "placeholder",
-      "description": "placeholder"
+      "img": "../../images/dryTort.jpg",
+      "description": " "
     },
     {
       "id": 2,
       "title": "Washington State",
-      "img": "placeholder",
-      "description": "placeholder"
+      "img": "../../images/washington_state.jpg",
+      "description": " "
     },
     {
       "id": 3,
       "title": "Florida Keys",
-      "img": "placeholder",
-      "description": "placeholder"
+      "img": "../../images/florida_keys.jpg",
+      "description": " "
     },
     {
       "id": 4,
       "title": "Garden of the Gods",
-      "img": "placeholder",
-      "description": "placeholder"
+      "img": "../../images/garden_of_the_gods.jpg",
+      "description": " "
     },
     {
       "id": 5,
       "title": "Cuba",
-      "img": "placeholder",
-      "description": "placeholder"
+      "img": "../../images/cuba.jpg",
+      "description": " "
+    },
+    {
+      "id": 6,
+      "title": "Patagonia",
+      "img": "../../images/winter-in-patagonia.jpg",
+      "description": " "
+    }
+  ],
+  "entries": [
+    {
+      "title": "Dry Tortugas",
+      "diaryInput": "placeholder",
+      "id": 1
+    },
+    {
+      "title": "Dry Tortugas",
+      "diaryInput": " I went to the Dry Tortugas last feb",
+      "id": 2
     }
   ]
 }
