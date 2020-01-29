@@ -7,7 +7,6 @@ API.getDestinations()
     .then(data => {
 
         injectDom.addCardToDom(data)
-        //console.log(".submit-button")
         document.querySelectorAll(".submit-button").forEach(item => {
             item.addEventListener("click", (event) => {
                 const id = event.target.id
@@ -18,7 +17,6 @@ API.getDestinations()
                     title: dTitle,
                     diaryInput: dInput
                 };
-                console.log(dTitle, dInput)
                 API.saveDescription(newEntry)
                     .then(() => {
                         document.querySelector(`#textarea--${id}`).value = "";

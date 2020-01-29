@@ -1,7 +1,5 @@
-// Move the code that is responsible for creating the entry HTML component into this file.
-
-
 // Card object constructor and invokes printToTheDom function
+
 const htmlConstructor = {
     cardHtml: function (item) {
 
